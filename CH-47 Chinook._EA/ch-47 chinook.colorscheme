@@ -1,0 +1,15 @@
+
+
+[Main]
+BaseVehicle=STRING:CH-47 Chinook
+DDSFileName=STRING:C:\Users\Mark\Documents\RealFlight G4\Vehicles\CustomModels\CH-47 Chinook\ch-47 chinook.dds
+GlowEnabled=BOOL:No
+PowerReflectiveOff=FLOAT:15.
+PowerReflectiveOn=FLOAT:20.
+PowerSpecularOff=FLOAT:70.
+PowerSpecularOn=FLOAT:55.
+Reflectivity=FLOAT:0.35
+Specular=FLOAT:1.
+TGAFileName=STRING:C:\Users\Mark\Documents\RealFlight G4\Vehicles\CustomModels\CH-47 Chinook\ch-47 chinook.tga
+TexturePath=STRING:C:\Users\Mark\Documents\RealFlight G4\Vehicles\CustomModels\CH-47 Chinook
+Version=INT:1
