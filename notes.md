@@ -19,7 +19,7 @@ Back:
 Front:
     
     Servo 1: 1530
-    Servo 3: 1500
+    Servo 3: 1530
     Servo 2: 1530 
 
 
@@ -54,7 +54,7 @@ Front:
     40	Motor8
 ardu
 ## Ardupilot Parameters to set
-
+H_SV_MAN 0
 FRAME_CLASS 11
 H_DUAL_MODE 0
 H_SW_TYPE 3
@@ -72,3 +72,6 @@ SERVO6_FUNCTION 38
 
 SERVO7_FUNCTION 31
 SERVO8_FUNCTION 31
+
+RC8_OPT 32
+RC7_OPT 31
