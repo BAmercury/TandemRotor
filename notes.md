@@ -13,14 +13,14 @@ Back:
 
 Back:
 
-    Servo 3: 1300
-    Servo 2: 1200
-    Servo 1: 1220
+    Servo 3: 1550
+    Servo 2: 1550
+    Servo 1: 1550
 Front:
     
-    Servo 1: 1416
+    Servo 1: 1530
     Servo 3: 1500
-    Servo 2: 1452 
+    Servo 2: 1530 
 
 
 ## Ardupilot Parameter Mapping:
