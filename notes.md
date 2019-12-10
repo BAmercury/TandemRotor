@@ -1,5 +1,15 @@
 # Helicopter Swash Notes:
 
+## Wiring:
+![alt text](Schematics/SignalBreakouts.png "Naming Convention Swash Plates")
+
+Red: ESC
+White: Servo 3
+Black:  Servo 2
+Green: Servo 1
+
+
+
 ## Naming convention:
 ![alt text](naming.png "Naming Convention Swash Plates")
 
@@ -30,13 +40,13 @@ Front:
         Servo 1: Motor 1, Servo1
         Servo 2: Motor 2, Servo2
         Servo 3: Motor 3, Servo 3
-        Front ESC: Motor 7, HeliRSC (Servo 7)
+        Front ESC (Servo 4): Motor 4, HeliRSC
     
     Back:
-        Servo 1: Motor 4, Servo4
-        Servo 2: Motor 5, Servo5
-        Servo 3: Motor 5, Servo6
-        Back ESC: Motor 8, HeliTailRSC (Servo 8)
+        Servo 5: Motor 5, Servo4
+        Servo 6: Motor 6, Servo5
+        Servo 7 : Motor 7, Servo6
+        Back ESC (Servo 8): Motor 8, HeliRSC
 
 
 ### Ardupilot Servo Function Reference:
@@ -65,13 +75,13 @@ H_SW_COL_DIR 0
 SERVO1_FUNCTION 33
 SERVO2_FUNCTION 34
 SERVO3_FUNCTION 35
+SERVO4_FUNCTION 31
 
-SERVO4_FUNCTION 36
-SERVO5_FUNCTION 37
-SERVO6_FUNCTION 38
-
-SERVO7_FUNCTION 31
+SERVO5_FUNCTION 36
+SERVO6_FUNCTION 37
+SERVO7_FUNCTION 38
 SERVO8_FUNCTION 31
+
 
 RC8_OPT 32
 RC7_OPT 31
